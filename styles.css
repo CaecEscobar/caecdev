@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css2?family=Cute+Font&family=Geo&family=Press+Start+2P&family=Varela+Round&display=swap");
+
+body {
+  font-family: "Press Start 2P", cursive;
+  font-size: small;
+  background-color: #0d0d0d;
+}
+
+.container {
+  margin: auto;
+}
+
+.image-hotspot {
+  position: relative;
+}
+
+.image-hotspot img {
+  max-width: 100%;
+}
+
+.naroomz {
+  z-index: -5;
+}
+
+.icon {
+  width: 224px;
+  cursor: pointer;
+}
+
+.icon img {
+  animation: updown 1.5s linear infinite alternate;
+}
+
+@keyframes updown {
+  0% {
+    transform: translate(0, -0) scale(1, 1);
+  }
+
+  100% {
+    transform: translate(-0, -15px) scale(1, 1);
+  }
+}
+
+.item {
+  position: absolute;
+  transform: translate(-50%, -50%);
+}
+
+.tooltip {
+  position: absolute;
+}
+
+.nav {
+  align-items: center;
+  --bs-nav-link-color: #0xffffff;
+  border: solid 5px #0d0d0d;
+  background-color: #7cbf69;
+}
+
+.modal {
+  --bs-modal-color: #0d0d0d;
+  --bs-modal-bg: #7cbf69;
+  --bs-modal-border-color: #0d0d0d;
+  --bs-modal-border-width: 10px;
+  --bs-modal-header-border-width: 0px;
+}
+
+@media (min-width: 1440px) {
+  .item {
+    transform: translate(-70%, -40%);
+  }
+}
+
+@media (max-width: 991px) {
+  .icon {
+    width: 160px;
+  }
+}
+
+@media (max-width: 767px) {
+  body {
+    font-size: 10px;
+  }
+
+  .icon {
+    width: 120px;
+  }
+}
+
+@media (max-width: 425px) {
+  .icon {
+    width: 100px;
+  }
+}
+
+@media (max-width: 425px) {
+  .icon {
+    width: 80px;
+  }
+}
