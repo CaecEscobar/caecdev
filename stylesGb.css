@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css2?family=Cute+Font&family=Geo&family=Press+Start+2P&family=Varela+Round&display=swap");
+
+body {
+  font-family: "Press Start 2P", cursive;
+  font-size: medium;
+  background-color: #0d0d0d;
+  color: #0d0d0d;
+}
+
+.container {
+  margin: auto;
+  max-width: 1140px;
+}
+
+.image-hotspot {
+  position: relative;
+}
+
+.image-hotspot img {
+  max-width: 100%;
+}
+
+.dropdown-menu {
+  --bs-dropdown-min-width: 70vw;
+  --bs-dropdown-bg: #7cbf69;
+  --bs-dropdown-border-color: #0d0d0d;
+  --bs-dropdown-border-width: 5px;
+  --bs-dropdown-link-hover-bg: #ade587;
+}
+
+.icon {
+  width: 224px;
+  cursor: pointer;
+}
+
+.icon img {
+  animation: updown 1.5s linear infinite alternate;
+}
+
+@keyframes updown {
+  0% {
+    transform: translate(0, -0) scale(1, 1);
+  }
+
+  100% {
+    transform: translate(-0, -15px) scale(1, 1);
+  }
+}
+
+.item {
+  position: absolute;
+  transform: translate(-50%, -50%);
+}
+
+.tooltip {
+  position: absolute;
+}
+
+.nav {
+  align-items: center;
+  --bs-nav-link-color: #0xffffff;
+  border: solid 5px #0d0d0d;
+  background-color: #7cbf69;
+}
+
+.modal {
+  --bs-modal-color: #0d0d0d;
+  --bs-modal-bg: #7cbf69;
+  --bs-modal-border-color: #0d0d0d;
+  --bs-modal-border-width: 10px;
+  --bs-modal-header-border-width: 0px;
+}
+
+@media (max-width: 1400px) {
+  .item {
+    transform: translate(-50%, -40%);
+  }
+}
+
+@media (max-width: 1024px) {
+  .dropdown-menu {
+    --bs-dropdown-min-width: 100vw;
+  }
+}
+
+@media (max-width: 991px) {
+  .icon {
+    width: 160px;
+  }
+}
+
+@media (max-width: 767px) {
+  body {
+    font-size: 10px;
+  }
+
+  .icon {
+    width: 120px;
+  }
+}
+
+@media (max-width: 425px) {
+  .icon {
+    width: 80px;
+  }
+}

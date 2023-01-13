@@ -11,7 +11,7 @@
       integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="styles.css" />
+    <link id="css" rel="stylesheet" href="stylesGb.css" />
   </head>
   <body onload="startTime()">
     <nav class="nav sticky-top nav-fill">
@@ -26,30 +26,50 @@
           <img src="public/Cdev64icon.png" alt="icon" width="32" height="32" />
         </a>
         <ul class="dropdown-menu">
-          <li><a class="dropdown-item" href="#"
+          <li><a class="dropdown-item" href="#" id="gb">
+            GB</a></li>
+          <li><a class="dropdown-item" href="#" id="gbc">
+            GBC</a></li>
+          <li><a class="dropdown-item" href="#" id="gba">
+            GBA</a></li>
+      </div>
+      <div class="nav-item dropdown-center">
+        <a
+          class="nav-link active dropdown-toggle"
+          role="button"
+          data-bs-toggle="dropdown"
+          aria-expanded="false"
+          href="#"
+        >
+          <img src="public/Cdev64icon.png" alt="icon" width="32" height="32" />
+        </a>
+        <ul class="dropdown-menu">
+          <div class="row row-cols-2">
+          <li class="col"><a class="dropdown-item" href="#"
             data-bs-toggle="modal"
             data-bs-target="#techModal">
             Technologies</a></li>
-          <li><a class="dropdown-item" href="#"
+          <li class="col"><a class="dropdown-item" href="#"
             data-bs-toggle="modal"
             data-bs-target="#workModal">
             Work</a></li>
-          <li><a class="dropdown-item" href="#"
+          <li class="col"><a class="dropdown-item" href="#"
             data-bs-toggle="modal"
             data-bs-target="#contactModal">
             Contact</a></li>
-          <li><a class="dropdown-item" href="#"
+          <li class="col"><a class="dropdown-item" href="#"
             data-bs-toggle="modal"
             data-bs-target="#aboutModal">
             About me</a></li>
-          <li><a class="dropdown-item" href="#" 
+          <li class="col"><a class="dropdown-item" href="#" 
             data-bs-toggle="modal"
             data-bs-target="#familyModal">
             Family</a></li>
-          <li><a class="dropdown-item" href="#"
+          <li class="col"><a class="dropdown-item" href="#"
             data-bs-toggle="modal"
             data-bs-target="#hobbiesModal">
             Hobbies</a></li>
+          </div>
       </div>
       <li class="nav-item" id="txt">
         <script>
@@ -73,13 +93,13 @@
     </nav>
 
     <div class="container">
-      <div class="image-hotspot">
-        <img class="naroomz" src="public/naroom.png" alt="naroom" />
+      <div class="image-hotspot" id="content">
+        <img id="naroom" class="" src="public/naroom-gb.png" alt="naroom" />
 
         <div class="item family" style="top: 8%; left: 40%">
           <div class="icon">
-            <img
-              src="public/boxFamily1.png"
+            <img id="boxFamily"
+              src="public/boxFamilyGb.png"
               alt=""
               data-bs-toggle="modal"
               data-bs-target="#familyModal"
@@ -90,8 +110,8 @@
 
         <div class="item tech" style="top: 31%; left: 65%">
           <div class="icon">
-            <img
-              src="public/boxTech1.png"
+            <img id="boxTech"
+              src="public/boxTechGb.png"
               alt=""
               data-bs-toggle="modal"
               data-bs-target="#techModal"
@@ -102,8 +122,8 @@
 
         <div class="item work" style="top: 35%; left: 18%">
           <div class="icon">
-            <img
-              src="public/boxWork2.png"
+            <img id="boxWork"
+              src="public/boxWorkGb.png"
               alt=""
               data-bs-toggle="modal"
               data-bs-target="#workModal"
@@ -114,8 +134,8 @@
 
         <div class="item hobbies" style="top: 72%; left: 70%">
           <div class="icon">
-            <img
-              src="public/boxHobbies1.png"
+            <img id="boxHobbies"
+              src="public/boxHobbiesGb.png"
               alt=""
               data-bs-toggle="modal"
               data-bs-target="#hobbiesModal"
@@ -126,8 +146,8 @@
 
         <div class="item about" style="top: 81%; left: 18%">
           <div class="icon">
-            <img
-              src="public/boxAbout2.png"
+            <img id="boxAbout"
+              src="public/boxAboutGb.png"
               alt=""
               data-bs-toggle="modal"
               data-bs-target="#aboutModal"
@@ -138,8 +158,8 @@
 
         <div class="item contact" style="top: 90%; left: 43%">
           <div class="icon">
-            <img
-              src="public/boxContact2.png"
+            <img id="boxContact"
+              src="public/boxContactGb.png"
               alt=""
               data-bs-toggle="modal"
               data-bs-target="#contactModal"
@@ -227,5 +247,7 @@
       integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
       crossorigin="anonymous"
     ></script>
+
+    <script src="scripts.js"></script>
   </body>
 </html>
