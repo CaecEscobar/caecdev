@@ -2,7 +2,7 @@
 
 body {
   font-family: "Press Start 2P", cursive;
-  font-size: small;
+  font-size: medium;
   background-color: #0d0d0d;
 }
 
@@ -16,6 +16,13 @@ body {
 
 .image-hotspot img {
   max-width: 100%;
+}
+
+.dropdown-menu {
+  --bs-dropdown-min-width: 100vw;
+  --bs-dropdown-bg: #7cbf69;
+  --bs-dropdown-border-color: #0d0d0d;
+  --bs-dropdown-border-width: 5px;
 }
 
 .naroomz {
