@@ -1,0 +1,127 @@
+@import url("https://fonts.googleapis.com/css2?family=Cute+Font&family=Geo&family=Press+Start+2P&family=Varela+Round&display=swap");
+
+body {
+  font-family: "Press Start 2P", cursive;
+  font-size: medium;
+  background-color: #0d0d0d;
+  color: #0d0d0d;
+}
+
+a,
+a:hover,
+a:focus,
+a:active {
+  text-decoration: none !important;
+  color: inherit;
+}
+
+.nav {
+  --bs-nav-link-hover-color: none;
+}
+
+.dropdown-menu.show {
+  width: 256px;
+  --bs-dropdown-min-width: none;
+}
+
+.container {
+  margin: auto;
+  max-width: 1140px;
+}
+
+.image-hotspot {
+  position: relative;
+}
+
+.image-hotspot img {
+  max-width: 100%;
+}
+
+.icon {
+  width: 224px;
+  cursor: pointer;
+}
+
+.icon img {
+  animation: updown 1.5s linear infinite alternate;
+}
+
+.card {
+  --bs-card-border-width: none;
+  --bs-card-bg: none;
+}
+
+.card-img-top {
+  width: 64px;
+}
+
+.workimg {
+  width: 320px;
+  border: solid 5px #0d0d0d;
+  cursor: pointer;
+}
+
+.familyimg {
+  border: solid 5px #0d0d0d;
+}
+
+.carousel-inner {
+  border: solid 5px #0d0d0d;
+}
+
+/* .cescobarimg {
+  max-height: 400px;
+} */
+
+@keyframes updown {
+  0% {
+    transform: translate(0, -0) scale(1, 1);
+  }
+
+  100% {
+    transform: translate(-0, -15px) scale(1, 1);
+  }
+}
+
+.item {
+  position: absolute;
+  transform: translate(-50%, -50%);
+}
+
+.tooltip {
+  position: absolute;
+}
+
+@media (max-width: 1400px) {
+  .item {
+    transform: translate(-50%, -40%);
+  }
+}
+
+/* @media (max-width: 1024px) {
+  .dropdown-menu {
+    --bs-dropdown-min-width: 10vw;
+  }
+} */
+
+@media (max-width: 991px) {
+  .icon {
+    width: 160px;
+  }
+}
+
+@media (max-width: 767px) {
+  body {
+    font-size: 10px;
+  }
+
+  .icon {
+    width: 120px;
+  }
+}
+
+@media (max-width: 425px) {
+  .icon {
+    width: 80px;
+  }
+}
