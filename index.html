@@ -34,7 +34,7 @@
           <li><a class="dropdown-item" href="#" id="gba">
             GBA</a></li>
       </div>
-      <!-- <div class="nav-item dropdown-center">
+      <div class="nav-item dropdown-center">
         <a
           class="nav-link active dropdown-toggle"
           role="button"
@@ -45,33 +45,11 @@
           <img src="public/Cdev64icon.png" alt="icon" width="32" height="32" />
         </a>
         <ul class="dropdown-menu">
-          <div class="row row-cols-2">
-          <li class="col"><a class="dropdown-item" href="#"
-            data-bs-toggle="modal"
-            data-bs-target="#techModal">
-            Technologies</a></li>
-          <li class="col"><a class="dropdown-item" href="#"
-            data-bs-toggle="modal"
-            data-bs-target="#workModal">
-            Work</a></li>
-          <li class="col"><a class="dropdown-item" href="#"
-            data-bs-toggle="modal"
-            data-bs-target="#contactModal">
-            Contact</a></li>
-          <li class="col"><a class="dropdown-item" href="#"
-            data-bs-toggle="modal"
-            data-bs-target="#aboutModal">
-            About me</a></li>
-          <li class="col"><a class="dropdown-item" href="#" 
-            data-bs-toggle="modal"
-            data-bs-target="#familyModal">
-            Family</a></li>
-          <li class="col"><a class="dropdown-item" href="#"
-            data-bs-toggle="modal"
-            data-bs-target="#hobbiesModal">
-            Hobbies</a></li>
-          </div>
-      </div> -->
+          <li><a class="dropdown-item" href="#" id="eng">
+            English</a></li>
+          <li><a class="dropdown-item" href="#" id="esp">
+            Español</a></li>
+      </div>
       <li class="nav-item" id="txt">
         <script>
           function startTime() {
@@ -174,13 +152,13 @@
     <div class="modal" id="familyModal" tabindex="-1">
       <div class="modal-dialog modal-dialog-centered modal-lg">
         <div class="modal-content">
-          <div class="modal-header"><h2>Family</h2></div>
+          <div class="modal-header" id="modal-header-family"><h2>FAMILY</h2></div>
           <div class="modal-body">
             <div class="container text-center">
               <div class="row row-cols-1">
               <div class="col">
                 <img id="familyimg0" src="public/family-1-gb.png" class="card-img-top w-100 familyimg" alt="">
-                <div class="card-footer">
+                <div class="card-footer" id="card-footer-family">
                   Kenny, Andy and Polly
                 </div>
               </div>
@@ -194,7 +172,7 @@
     <div class="modal" id="techModal" tabindex="-1">
       <div class="modal-dialog modal-dialog-centered modal-lg">
         <div class="modal-content">
-          <div class="modal-header"><h2>TECHNOLOGIES</h2></div>
+          <div class="modal-header" id="modal-header-tech"><h2>TECHNOLOGIES</h2></div>
           <div class="modal-body">
             <div class="container text-center">
               <div class="row row-cols-3">
@@ -238,7 +216,7 @@
     <div class="modal" id="workModal" tabindex="-1">
       <div class="modal-dialog modal-dialog-centered modal-lg">
         <div class="modal-content">
-          <div class="modal-header"><h2>WORK</h2></div>
+          <div class="modal-header" id="modal-header-work"><h2>WORK</h2></div>
           <div class="modal-body">
             <div class="container text-center">
               <div class="row row-cols-1">
@@ -246,7 +224,7 @@
                 <img id="workimg0" src="public/work-cescobar-1-gb.png" class="card-img-top w-100 workimg" alt=""               
                 data-bs-toggle="modal"
                 data-bs-target="#workCescobarModal">
-                <div class="card-footer">
+                <div class="card-footer" id="footer-work-Cescobar">
                   C.ESCOBAR ARCHITECT
                 </div>
               </div>
@@ -261,10 +239,10 @@
       <div class="modal-dialog modal-dialog-centered modal-lg">
         <div class="modal-content">
           <div class="modal-header"><h2>HOBBIES</h2></div>
-          <div class="modal-body">
+          <div class="modal-body" id="modal-body-hobbies">
             <h4>Music</h4>
             <p>
-              I also own and run a music studio called "Nuevos Amigos Estudios" and am a member of a band called "Guest House."
+              I also own and run a music studio called "Nuevos Amigos Estudios" and am a member of a band called "Guest House"
               <br>
               <br>
               <a class="text-body-secondary" href="https://www.linktr.ee/nuevosamigos" target="_blank">Nuevos Amigos Estudios</a>
@@ -280,13 +258,14 @@
     <div class="modal" id="aboutModal" tabindex="-1">
       <div class="modal-dialog modal-dialog-centered modal-lg">
         <div class="modal-content">
-          <div class="modal-header"><h2>ABOUT ME</h2></div>
-          <div class="modal-body">
+          <div class="modal-header" id="modal-header-about"><h2>ABOUT ME</h2></div>
+          <div class="modal-body" id="modal-body-about">
             <h4>
               Hi! my name is Carlos
             </h4>
             <p>
-              and I am an experienced programmer skilled in React and JavaScript. I strive to maintain high standards of code quality and focus on meeting goals and deadlines. Working with me guarantees clear and efficient communication. Don't hesitate to contact me to discuss how I can assist you on your next project!            </p>
+              and I am an experienced programmer skilled in React and JavaScript. I strive to maintain high standards of code quality and focus on meeting goals and deadlines. Working with me guarantees clear and efficient communication. Don't hesitate to contact me to discuss how I can assist you on your next project!
+            </p>
           </div>
         </div>
       </div>
@@ -295,11 +274,11 @@
     <div class="modal" id="contactModal" tabindex="-1">
       <div class="modal-dialog modal-dialog-centered modal-lg">
         <div class="modal-content">
-          <div class="modal-header"><h2>CONTACT</h2></div>
-          <div class="modal-body">
+          <div class="modal-header" id="modal-header-contact"><h2>CONTACT</h2></div>
+          <div class="modal-body" id="modal-body-contact">
             <h4>GET IN TOUCH</h4>
             <p>
-              Name: Carlos Escobar
+              Name : Carlos Escobar
               <br>
               Email: Caec.dev@gmail.com
               <br>
@@ -314,8 +293,8 @@
       <div class="modal-dialog modal-dialog-centered modal-lg">
         <div class="modal-content">
           <div class="modal-body">              
-            <h1 class="fs-6">C.ESCOBAR ARCHITECT</h1>
-            <p>Architect / Portfolio
+            <h1 class="fs-6" id="header-work-Cescobar">C.ESCOBAR ARCHITECT</h1>
+            <p id="body-work-Cescobar">Architect / Portfolio
               <br>
               <a href="https://www.ce-arq.xyz/index-ENG.html" target="_blank" class="text-body-secondary">Link</a>
             </p>
