@@ -241,7 +241,7 @@ function eng() {
     'Architect / Portfolio<br><a href="https://www.ce-arq.xyz/index-ENG.html" target="_blank" class="text-body-secondary">Link</a>';
   // HOBBIES
   document.getElementById("modal-body-hobbies").innerHTML =
-    '<h4>Music</h4><p>I also own and run a music studio called "Nuevos Amigos Estudios" and am a member of a band called "Guest House"<br><br><a class="text-body-secondary" href="https://www.linktr.ee/nuevosamigos" target="_blank">Nuevos Amigos Estudios</a><br><br><a class="text-body-secondary" href="https://www.linktr.ee/GuestHouseBand" target="_blank">Guest House</a></p>';
+    '<h4>Music</h4><p>I also own and run a music studio called "Nuevos Amigos Estudios" and am a member of a band called "Guest House"<br><br><a class="text-body-secondary" href="https://www.linktr.ee/nuevosamigos" target="_blank">Nuevos Amigos Estudios</a><br><br><a class="text-body-secondary" href="https://www.guesthouse.com.mx" target="_blank">Guest House</a></p>';
   // ABOUT
   document.getElementById("modal-header-about").innerHTML = "<h2>SOBRE MÍ</h2>";
   document.getElementById("modal-body-about").innerHTML =
@@ -325,7 +325,7 @@ function esp() {
   document.getElementById("workimg3").src = "public/work-cescobar-5-gb.png";
   // HOBBIES
   document.getElementById("modal-body-hobbies").innerHTML =
-    '<h4>Música</h4><p>También soy dueño y dirijo un estudio de música llamado "Nuevos Amigos Estudios" y soy miembro de una banda llamada "Guest House"<br><br><a class="text-body-secondary" href="https://www.linktr.ee/nuevosamigos" target="_blank">Nuevos Amigos Estudios</a><br><br><a class="text-body-secondary" href="https://www.linktr.ee/GuestHouseBand" target="_blank">Guest House</a></p>';
+    '<h4>Música</h4><p>También soy dueño y dirijo un estudio de música llamado "Nuevos Amigos Estudios" y soy miembro de una banda llamada "Guest House"<br><br><a class="text-body-secondary" href="https://www.linktr.ee/nuevosamigos" target="_blank">Nuevos Amigos Estudios</a><br><br><a class="text-body-secondary" href="https://www.guesthouse.com.mx" target="_blank">Guest House</a></p>';
   // ABOUT
   document.getElementById("modal-header-about").innerHTML = "<h2>SOBRE MÍ</h2>";
   document.getElementById("modal-body-about").innerHTML =
