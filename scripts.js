@@ -25,7 +25,7 @@ function buttonNext() {
       document.getElementById("header-work-Cescobar").innerHTML =
         "C.ESCOBAR ARCHITECT";
       document.getElementById("body-work-Cescobar").innerHTML =
-        'Architect / Portfolio<br><a href="https://www.ce-arq.xyz/index-ENG.html" target="_blank" class="text-body-secondary">Link</a>';
+        'Architect / Portfolio<br><a href="https://caecescobar.github.io/ce-arq/index-ENG.html" target="_blank" class="text-body-secondary">Link</a>';
       document.getElementById("workimg1").src = "public/work-cescobar-1-gb.png";
       document.getElementById("workimg2").src = "public/work-cescobar-2-gb.png";
       document.getElementById("workimg3").src = "public/work-cescobar-5-gb.png";
@@ -42,7 +42,7 @@ function buttonNext() {
       document.getElementById("header-work-Cescobar").innerHTML =
         "C.ESCOBAR ARQUITECTO";
       document.getElementById("body-work-Cescobar").innerHTML =
-        'Arquitecto / Portafolio<br><a href="https://www.ce-arq.xyz/index-ENG.html" target="_blank" class="text-body-secondary">Link</a>';
+        'Arquitecto / Portafolio<br><a href="https://caecescobar.github.io/ce-arq/index.html" target="_blank" class="text-body-secondary">Link</a>';
       document.getElementById("workimg1").src = "public/work-cescobar-1-gb.png";
       document.getElementById("workimg2").src = "public/work-cescobar-2-gb.png";
       document.getElementById("workimg3").src = "public/work-cescobar-5-gb.png";
@@ -61,7 +61,7 @@ function buttonNext() {
       document.getElementById("header-work-Cescobar").innerHTML =
         "C.ESCOBAR ARCHITECT";
       document.getElementById("body-work-Cescobar").innerHTML =
-        'Architect / Portfolio<br><a href="https://www.ce-arq.xyz/index-ENG.html" target="_blank" class="text-body-secondary">Link</a>';
+        'Architect / Portfolio<br><a href="https://caecescobar.github.io/ce-arq/index-ENG.html" target="_blank" class="text-body-secondary">Link</a>';
       document.getElementById("workimg1").src = "public/work-cescobar-1.jpg";
       document.getElementById("workimg2").src = "public/work-cescobar-2.jpg";
       document.getElementById("workimg3").src = "public/work-cescobar-5.jpg";
@@ -78,7 +78,7 @@ function buttonNext() {
       document.getElementById("header-work-Cescobar").innerHTML =
         "C.ESCOBAR ARQUITECTO";
       document.getElementById("body-work-Cescobar").innerHTML =
-        'Arquitecto / Portafolio<br><a href="https://www.ce-arq.xyz/index-ENG.html" target="_blank" class="text-body-secondary">Link</a>';
+        'Arquitecto / Portafolio<br><a href="https://caecescobar.github.io/ce-arq/index.html" target="_blank" class="text-body-secondary">Link</a>';
       document.getElementById("workimg1").src = "public/work-cescobar-1.jpg";
       document.getElementById("workimg2").src = "public/work-cescobar-2.jpg";
       document.getElementById("workimg3").src = "public/work-cescobar-5.jpg";
@@ -118,7 +118,7 @@ function gb() {
     document.getElementById("header-work-Cescobar").innerHTML =
       "C.ESCOBAR ARCHITECT";
     document.getElementById("body-work-Cescobar").innerHTML =
-      'Architect / Portfolio<br><a href="https://www.ce-arq.xyz/index-ENG.html" target="_blank" class="text-body-secondary">Link</a>';
+      'Architect / Portfolio<br><a href="https://caecescobar.github.io/ce-arq/index-ENG.html" target="_blank" class="text-body-secondary">Link</a>';
   } else if (idioma == "<h2>FAMILIA</h2>") {
     document.getElementById("boxFamily").src = "public/boxFamilyGbEsp.png";
     document.getElementById("boxTech").src = "public/boxTechGbEsp.png";
@@ -129,7 +129,7 @@ function gb() {
     document.getElementById("header-work-Cescobar").innerHTML =
       "C.ESCOBAR ARQUITECTO";
     document.getElementById("body-work-Cescobar").innerHTML =
-      'Arquitecto / Portafolio<br><a href="https://www.ce-arq.xyz/index-ENG.html" target="_blank" class="text-body-secondary">Link</a>';
+      'Arquitecto / Portafolio<br><a href="https://caecescobar.github.io/ce-arq/index.html" target="_blank" class="text-body-secondary">Link</a>';
   }
 }
 
@@ -165,7 +165,7 @@ function gbc() {
     document.getElementById("header-work-Cescobar").innerHTML =
       "C.ESCOBAR ARCHITECT";
     document.getElementById("body-work-Cescobar").innerHTML =
-      'Architect / Portfolio<br><a href="https://www.ce-arq.xyz/index-ENG.html" target="_blank" class="text-body-secondary">Link</a>';
+      'Architect / Portfolio<br><a href="https://caecescobar.github.io/ce-arq/index-ENG.html" target="_blank" class="text-body-secondary">Link</a>';
   } else if (idioma == "<h2>FAMILIA</h2>") {
     document.getElementById("boxFamily").src = "public/boxFamilyGbcEsp.png";
     document.getElementById("boxTech").src = "public/boxTechGbcEsp.png";
@@ -176,7 +176,7 @@ function gbc() {
     document.getElementById("header-work-Cescobar").innerHTML =
       "C.ESCOBAR ARQUITECTO";
     document.getElementById("body-work-Cescobar").innerHTML =
-      'Arquitecto / Portafolio<br><a href="https://www.ce-arq.xyz/index-ENG.html" target="_blank" class="text-body-secondary">Link</a>';
+      'Arquitecto / Portafolio<br><a href="https://caecescobar.github.io/ce-arq/index.html" target="_blank" class="text-body-secondary">Link</a>';
   }
 }
 
@@ -212,7 +212,7 @@ function gba() {
     document.getElementById("header-work-Cescobar").innerHTML =
       "C.ESCOBAR ARCHITECT";
     document.getElementById("body-work-Cescobar").innerHTML =
-      'Architect / Portfolio<br><a href="https://www.ce-arq.xyz/index-ENG.html" target="_blank" class="text-body-secondary">Link</a>';
+      'Architect / Portfolio<br><a href="https://caecescobar.github.io/ce-arq/index-ENG.html" target="_blank" class="text-body-secondary">Link</a>';
   } else if (idioma == "<h2>FAMILIA</h2>") {
     document.getElementById("boxFamily").src = "public/boxFamilyGbaEsp.png";
     document.getElementById("boxTech").src = "public/boxTechGbaEsp.png";
@@ -223,7 +223,7 @@ function gba() {
     document.getElementById("header-work-Cescobar").innerHTML =
       "C.ESCOBAR ARQUITECTO";
     document.getElementById("body-work-Cescobar").innerHTML =
-      'Arquitecto / Portafolio<br><a href="https://www.ce-arq.xyz/index-ENG.html" target="_blank" class="text-body-secondary">Link</a>';
+      'Arquitecto / Portafolio<br><a href="https://caecescobar.github.io/ce-arq/index.html" target="_blank" class="text-body-secondary">Link</a>';
   }
 }
 
@@ -247,7 +247,7 @@ function eng() {
   document.getElementById("header-work-Cescobar").innerHTML =
     "C.ESCOBAR ARCHITECT";
   document.getElementById("body-work-Cescobar").innerHTML =
-    'Architect / Portfolio<br><a href="https://www.ce-arq.xyz/index-ENG.html" target="_blank" class="text-body-secondary">Link</a>';
+    'Architect / Portfolio<br><a href="https://caecescobar.github.io/ce-arq/index-ENG.html" target="_blank" class="text-body-secondary">Link</a>';
   // HOBBIES
   document.getElementById("modal-body-hobbies").innerHTML =
     '<h4>Music</h4><p>I also own and run a music studio called "Nuevos Amigos Estudios" and am a member of a band called "Guest House"<br><br><a class="text-body-secondary" href="https://www.linktr.ee/nuevosamigos" target="_blank">Nuevos Amigos Estudios</a><br><br><a class="text-body-secondary" href="https://caecescobar.github.io/01_guesthouse" target="_blank">Guest House</a></p>';
@@ -328,7 +328,7 @@ function esp() {
   document.getElementById("header-work-Cescobar").innerHTML =
     "C.ESCOBAR ARQUITECTO";
   document.getElementById("body-work-Cescobar").innerHTML =
-    'Arquitecto / Portafolio<br><a href="https://www.ce-arq.xyz/index-ENG.html" target="_blank" class="text-body-secondary">Link</a>';
+    'Arquitecto / Portafolio<br><a href="https://caecescobar.github.io/ce-arq/index.html" target="_blank" class="text-body-secondary">Link</a>';
   document.getElementById("workimg1").src = "public/work-cescobar-1-gb.png";
   document.getElementById("workimg2").src = "public/work-cescobar-2-gb.png";
   document.getElementById("workimg3").src = "public/work-cescobar-5-gb.png";
